@@ -79,7 +79,7 @@ nav ul li {
 
  nav ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 nav ul li:hover {
@@ -189,3 +189,36 @@ nav ul li:hover {
     align-items: flex-start
 }
 
+.footer-upper {
+    background-color: var(--purple600);
+    color: var(--body);
+    padding: 20px;
+}
+
+.footer-upper .container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.footer-upper h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.footer-lower {
+    background-color: var(--purple300);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--body);
+}
+
+section {
+    scroll-margin: 50px;
+}
+
+.gifts-section {
+    scroll-margin: 100px;
+}
